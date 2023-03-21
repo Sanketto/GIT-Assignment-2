@@ -9,6 +9,5 @@ mongoose.connect(process.env.DATABASE_URL,{ useNewUrlParser: true, useUnifiedTop
     console.log('connected to DB')
 })
 
-
 app.listen(3000, () => console.log('Server running on port 3000'));
 
